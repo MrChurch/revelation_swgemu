@@ -1,0 +1,41 @@
+surgisquil_guardian = Creature:new {
+	objectName = "",
+	customName = "Guardian of Surgisquil",
+	socialGroup = "squill",
+	faction = "",
+	level = 250,
+	chanceHit = 100,
+	damageMin = 2900,
+	damageMax = 3800,
+	baseXp = 75000,
+	baseHAM = 186000,
+	baseHAMmax = 216000,
+	armor = 2,
+	resists = {65,55,75,55,-1,25,25,25,30},
+	meatType = "meat_carnivore",
+	meatAmount = 3,
+	hideType = "hide_leathery",
+	hideAmount = 4,
+	boneType = "bone_mammal",
+	boneAmount = 2,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 10,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK,
+	optionsBitmask = 128,
+	diet = CARNIVORE,
+
+	templates = {"object/mobile/mountain_squill.iff"},
+	scale = 2.1,
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = {
+		{"intimidationattack","stateAccuracyBonus=75"},
+		{"creatureareableeding","stateAccuracyBonus=100"},
+		{"creatureareacombo","stateAccuracyBonus=100"},
+	}
+}
+
+CreatureTemplates:addCreatureTemplate(surgisquil_guardian, "surgisquil_guardian")

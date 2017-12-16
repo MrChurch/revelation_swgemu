@@ -1,0 +1,37 @@
+rep_transitpilot = Creature:new {
+  objectName = "",
+  customName = "Transitpilot",
+  socialGroup = "rebel",
+  pvpFaction = "rebel",
+  faction = "rebel",
+  level = 80,
+  chanceHit = 20,
+  damageMin = 700,
+  damageMax = 950,
+  baseXp = 5000,
+  baseHAM = 12000,
+  baseHAMmax = 19000,
+  armor = 2,
+  resists = {40,40,60,35,55,70,35,40,-1},
+  meatType = "",
+  meatAmount = 0,
+  hideType = "",
+  hideAmount = 0,
+  boneType = "",
+  boneAmount = 0,
+  milk = 0,
+  tamingChance = 0,
+  ferocity = 0,
+  pvpBitmask = ATTACKABLE + OVERT + AGGRESSIVE,
+  creatureBitmask = PACK + KILLER,
+  optionsBitmask = 264,
+  diet = HERBIVORE,
+
+  templates = {"object/mobile/dressed_rebel_pilot_human_male_01.iff"},
+  lootGroups = {},
+  weapons = {"imperial_weapons_light"},
+  conversationTemplate = "reb_transitconvo_template",
+  attacks = merge(riflemanmaster,carbineermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(rep_transitpilot, "rep_transitpilot")

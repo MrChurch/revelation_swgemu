@@ -1,0 +1,9 @@
+object_revelation_tangible_wearables_jacket_shared_jacket_ace_imperial = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/jacket/shared_jacket_ace_imperial.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_tangible_wearables_jacket_shared_jacket_ace_imperial, "object/tangible/wearables/jacket/shared_jacket_ace_imperial.iff")
+
+object_revelation_tangible_wearables_jacket_shared_jacket_ace_rebel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/jacket/shared_jacket_ace_rebel.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_tangible_wearables_jacket_shared_jacket_ace_rebel, "object/tangible/wearables/jacket/shared_jacket_ace_rebel.iff")

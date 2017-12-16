@@ -1,0 +1,24 @@
+-- Nebulon Frigate Hologram
+
+object_revelation_tangible_furniture_decorative_shared_hologram_nebulon_frigate = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_hologram_nebulon_frigate.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_revelation_tangible_furniture_decorative_shared_hologram_nebulon_frigate, "object/tangible/furniture/decorative/shared_hologram_nebulon_frigate.iff")
+
+
+-- XWing Hologram
+
+object_revelation_tangible_furniture_decorative_shared_hologram_xwing = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_hologram_xwing.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_revelation_tangible_furniture_decorative_shared_hologram_xwing, "object/tangible/furniture/decorative/shared_hologram_xwing.iff")
+
+-- imperial_community_painting_2008
+
+object_revelation_tangible_furniture_decorative_shared_imperial_community_painting_2008 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_imperial_community_painting_2008.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_revelation_tangible_furniture_decorative_shared_imperial_community_painting_2008, "object/tangible/furniture/decorative/shared_imperial_community_painting_2008.iff")

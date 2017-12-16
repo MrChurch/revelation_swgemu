@@ -1,0 +1,36 @@
+blodgeon_spiderclan_web_dancer = Creature:new {
+	objectName = "@mob/creature_names:spider_nightsister_web_dancer",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "dungeon_creature",
+	faction = "",
+	level = 90,
+	chanceHit = 10,
+	damageMin = 2520,
+	damageMax = 3050,
+	baseXp = 20000,
+	baseHAM = 32000,
+	baseHAMmax = 35000,
+	armor = 1,
+	resists = {65,95,100,65,15,65,90,100,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_dathomir_spider_nightsister_web_dancer.iff"},
+	lootGroups = {},
+	weapons = {"dark_jedi_weapons_gen2"},
+	conversationTemplate = "",
+	attacks = merge(forcewielder,lightsabermaster,forcepowermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(blodgeon_spiderclan_web_dancer, "blodgeon_spiderclan_web_dancer")

@@ -1,0 +1,37 @@
+rev_giant_probot = Creature:new {
+	objectName = "",
+	customName = "<< AI >>",
+	socialGroup = "dungeon_creature",
+	faction = "",
+	level = 300,
+	chanceHit = 15,
+	damageMin = 2050,
+	damageMax = 2850,
+	baseXp = 3005,
+	baseHAM = 1316300,
+	baseHAMmax = 1519100,
+	armor = 1,
+	resists = {55,55,55,35,35,35,35,35,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = ATTACKABLE + OVERT + AGGRESSIVE,
+	creatureBitmask = PACK,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+	scale = 3.5,
+
+	templates = {"object/mobile/probot.iff"},
+	lootGroups = {},
+	conversationTemplate = "",
+	defaultWeapon = "object/weapon/ranged/droid/droid_droideka_ranged.iff",
+	defaultAttack = "creaturerangedattack"
+}
+
+CreatureTemplates:addCreatureTemplate(rev_giant_probot, "rev_giant_probot")

@@ -1,0 +1,35 @@
+rev_borvo_the_hutt = Creature:new {
+	objectName = "@mob/creature_names:borvo_the_hutt",
+	socialGroup = "jawa",
+	faction = "jawa",
+	level = 150,
+	chanceHit = 30,
+	damageMin = 3920,
+	damageMax = 5550,
+	baseXp = 100000,
+	baseHAM = 700000,
+	baseHAMmax = 900000,
+	armor = 1,
+	resists = {90,90,90,90,90,90,90,90,35},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = ATTACKABLE + AGGRESSIVE + ENEMY,
+	creatureBitmask = PACK + KILLER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/borvo.iff"},
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = merge(brawlermaster,unarmedmaster)
+}
+
+CreatureTemplates:addCreatureTemplate(rev_borvo_the_hutt, "rev_borvo_the_hutt")

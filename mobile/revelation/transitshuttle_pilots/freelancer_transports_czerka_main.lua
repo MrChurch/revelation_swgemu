@@ -1,0 +1,31 @@
+freelancer_transports_czerka_main = Creature:new {
+	objectName = "",
+	customName = "Czerka Corp. Transport Division",
+	faction = "",
+	level = 30,
+	chanceHit = 0.390000,
+	damageMin = 290,
+	damageMax = 300,
+	baseXp = 0,
+	baseHAM = 18400,
+	baseHAMmax = 22200,
+	armor = 1,
+	resists = {-1,-1,-1,-1,-1,-1,-1,-1,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0.000000,
+	ferocity = 0,
+	pvpBitmask = NONE,
+	creatureBitmask = NONE,
+	diet = HERBIVORE,
+	templates = {"object/mobile/dressed_imperial_trainer_space_01.iff"},
+
+	conversationTemplate = "freelancer_transport_czerka_main_template",
+	optionsBitmask = 264
+}
+CreatureTemplates:addCreatureTemplate(freelancer_transports_czerka_main,"freelancer_transports_czerka_main")

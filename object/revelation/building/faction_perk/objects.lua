@@ -1,0 +1,1 @@
+require "object.revelation.building.faction_perk.hq.objects"

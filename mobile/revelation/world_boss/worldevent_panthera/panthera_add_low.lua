@@ -1,0 +1,40 @@
+panthera_add_low = Creature:new {
+	objectName = "",
+	customName = "Panthera Whelp",
+	socialGroup = "dungeon_creature",
+	pvpFaction = "",
+	faction = "",
+	level = 150,
+	chanceHit = 100,
+	damageMin = 1145,
+	damageMax = 1400,
+	baseXp = 296845,
+	baseHAM = 46000,
+	baseHAMmax = 66000,
+	armor = 1,
+	resists = {25,55,55,55,-1,55,55,45,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = KILLER + STALKER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/beast_master/bm_mutated_narglatch.iff"},
+	scale = 1.0,
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = {
+		{"creatureareapoison","stateAccuracyBonus=85"},
+	}
+}
+
+CreatureTemplates:addCreatureTemplate(panthera_add_low, "panthera_add_low")

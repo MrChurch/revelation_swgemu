@@ -1,0 +1,32 @@
+object_revelation_tangible_storyteller_prop_shared_pr_item_burning_man_huge = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_burning_man_huge.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_revelation_tangible_storyteller_prop_shared_pr_item_burning_man_huge, "object/tangible/storyteller/prop/shared_pr_item_burning_man_huge.iff")
+
+object_revelation_tangible_storyteller_prop_shared_pr_scarecrow_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_scarecrow_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_revelation_tangible_storyteller_prop_shared_pr_scarecrow_01, "object/tangible/storyteller/prop/shared_pr_scarecrow_01.iff")
+
+object_revelation_tangible_storyteller_prop_shared_pr_scarecrow_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_scarecrow_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_tangible_storyteller_prop_shared_pr_scarecrow_02, "object/tangible/storyteller/prop/shared_pr_scarecrow_02.iff")
+
+object_revelation_tangible_storyteller_prop_shared_pr_lifeday_bunting = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_lifeday_bunting.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_tangible_storyteller_prop_shared_pr_lifeday_bunting, "object/tangible/storyteller/prop/shared_pr_lifeday_bunting.iff")
+
+object_revelation_tangible_storyteller_prop_shared_pr_lifeday_decorated_tree = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_lifeday_decorated_tree.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_tangible_storyteller_prop_shared_pr_lifeday_decorated_tree, "object/tangible/storyteller/prop/shared_pr_lifeday_decorated_tree.iff")
+
+object_revelation_tangible_storyteller_prop_shared_pr_lifeday_presents = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_lifeday_presents.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_tangible_storyteller_prop_shared_pr_lifeday_presents, "object/tangible/storyteller/prop/shared_pr_lifeday_presents.iff")
+

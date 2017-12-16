@@ -1,0 +1,6 @@
+require("mobile.revelation_conversations.merchants.merchant_czerka_basic_conversation")
+require("mobile.revelation_conversations.merchants.merchant_express_basic_conversation")
+require("mobile.revelation_conversations.merchants.merchant_worldevent_conversation")
+require("mobile.revelation_conversations.merchants.merchant_pvp_basic_conversation")
+require("mobile.revelation_conversations.merchants.merchant_pvp_special_conversation")
+require("mobile.revelation_conversations.merchants.xmas_vendor_conversation")

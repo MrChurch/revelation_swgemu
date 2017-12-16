@@ -1,0 +1,11 @@
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_belt")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_bicep_l")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_bicep_r")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_boots")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_bracer_l")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_bracer_r")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_chest_plate")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_gloves")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_helmet")
+require("loot.revelation.items.armor.snow_imperial.snowarmor_imperial_leggings")
+

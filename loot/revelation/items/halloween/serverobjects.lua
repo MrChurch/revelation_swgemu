@@ -1,0 +1,6 @@
+require("loot.revelation.items.halloween.pr_scarecrow_01_loot")
+require("loot.revelation.items.halloween.pr_scarecrow_02_loot")
+require("loot.revelation.items.halloween.pr_item_burning_man_huge_loot")
+require("loot.revelation.items.halloween.painting_heroic_exar_kun_ultra_rare_loot")
+require("loot.revelation.items.halloween.painting_loot_heroic_exar_kun_loot")
+require("loot.revelation.items.halloween.heroic_exar_kun_torture_table_loot")

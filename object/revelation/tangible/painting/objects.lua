@@ -1,0 +1,12 @@
+object_revelation_tangible_painting_painting_heroic_exar_kun_ultra_rare_shared = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/painting/shared_painting_heroic_exar_kun_ultra_rare.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_revelation_tangible_painting_painting_heroic_exar_kun_ultra_rare, "object/tangible/painting/painting_heroic_exar_kun_ultra_rare.iff")
+
+object_revelation_tangible_painting_painting_loot_heroic_exar_kun_shared = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/painting/shared_painting_loot_heroic_exar_kun.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_revelation_tangible_painting_painting_loot_heroic_exar_kun, "object/tangible/painting/painting_loot_heroic_exar_kun.iff")
+

@@ -1,0 +1,38 @@
+rev_hk77= Creature:new {
+	objectName = "",
+	customName = "HK77",
+	socialGroup = "dungeon_creature",
+	faction = "dungeon_creature",
+	level = 80,
+	chanceHit = 25,
+	damageMin = 920,
+	damageMax = 1050,
+	baseXp = 50000,
+	baseHAM = 32000,
+	baseHAMmax = 42000,
+	armor = 2,
+	resists = {40,40,60,35,55,70,35,40,35},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+	scale = 1.3,
+	templates = {"object/mobile/som/hk77.iff"},
+	lootGroups = {},
+	weapons = {"czerka_melee_weapons_heavy"},
+	conversationTemplate = "",
+	attacks = merge(pikemanmaster,brawlermaster)
+	--defaultWeapon = "object/weapon/ranged/droid/droid_droideka_ranged.iff",
+	--defaultAttack = "creaturerangedattack"
+}
+
+CreatureTemplates:addCreatureTemplate(rev_hk77, "rev_hk77")

@@ -1,0 +1,5 @@
+object_revelation_tangible_furniture_decorative_imperial_community_painting_2008 = object_revelation_tangible_furniture_decorative_shared_imperial_community_painting_2008:new {
+customName = "Imperial Painting"
+}
+
+ObjectTemplates:addTemplate(object_revelation_tangible_furniture_decorative_imperial_community_painting_2008, "object/tangible/furniture/decorative/imperial_community_painting_2008.iff")

@@ -1,0 +1,36 @@
+blodgeon_nightsister_rancor_tamer = Creature:new {
+	objectName = "@mob/creature_names:nightsister_rancor_tamer",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "dungeon_creature",
+	faction = "",
+	level = 176,
+	chanceHit = 75,
+	damageMin = 3820,
+	damageMax = 4450,
+	baseXp = 45000,
+	baseHAM = 42000,
+	baseHAMmax = 55000,
+	armor = 1,
+	resists = {30,-1,30,50,50,50,50,100,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_dathomir_nightsister_rancor_tamer.iff"},
+	lootGroups = {},
+	weapons = {"czerka_melee_weapons_heavy"},
+	conversationTemplate = "",
+	attacks = merge(pikemanmaster,brawlermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(blodgeon_nightsister_rancor_tamer, "blodgeon_nightsister_rancor_tamer")

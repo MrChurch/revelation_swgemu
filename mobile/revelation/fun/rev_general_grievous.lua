@@ -1,0 +1,36 @@
+rev_general_grievous = Creature:new {
+	objectName = "",
+	customName = "General Grievous",
+	socialGroup = "dungeon_creature",
+	faction = "dungeon_creature",
+	level = 80,
+	chanceHit = 45,
+	damageMin = 1220,
+	damageMax = 1650,
+	baseXp = 100000,
+	baseHAM = 800000,
+	baseHAMmax = 1000000,
+	armor = 2,
+	resists = {60,60,60,65,55,70,55,50,55},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/ep3/general_grievous.iff"},
+	lootGroups = {},
+	weapons = {"dark_jedi_weapons_gen3"},
+	conversationTemplate = "",
+	attacks = merge(lightsabermaster,forcepowermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(rev_general_grievous, "rev_general_grievous")

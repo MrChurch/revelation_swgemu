@@ -1,0 +1,5 @@
+object_revelation_tangible_furniture_technical_cyborg_repair_table = object_revelation_tangible_furniture_technical_cyborg_repair_table_shared:new {
+customName = "cyborg repair table"
+}
+
+ObjectTemplates:addTemplate(object_revelation_tangible_furniture_technical_cyborg_repair_table, "object/tangible/furniture/technical/cyborg_repair_table.iff")

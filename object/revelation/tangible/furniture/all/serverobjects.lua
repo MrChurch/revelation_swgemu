@@ -1,0 +1,1 @@
+--require "object.revelation.tangible.furniture.all.bed_ofol"

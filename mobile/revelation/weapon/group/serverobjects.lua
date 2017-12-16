@@ -1,0 +1,7 @@
+require("mobile.revelation.weapon.group.czerka_ranged_weapons_heavy")
+require("mobile.revelation.weapon.group.czerka_melee_weapons_heavy")
+require("mobile.revelation.weapon.group.czerka_melee_special")
+require("mobile.revelation.weapon.group.imperial_officer_melee")
+require("mobile.revelation.weapon.group.imperial_commando_weapons")
+require("mobile.revelation.weapon.group.imperial_boss_melee")
+require("mobile.revelation.weapon.group.jawa_ranged_weapons_heavy")

@@ -1,0 +1,6 @@
+require "object.revelation.building.serverobjects"
+require "object.revelation.tangible.serverobjects"
+require "object.revelation.draft_schematic.serverobjects"
+require "object.revelation.intangible.serverobjects"
+require "object.revelation.mobile.serverobjects"
+require "object.revelation.weapon.serverobjects"

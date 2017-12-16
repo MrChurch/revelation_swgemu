@@ -1,0 +1,36 @@
+blodgeon_singing_mountain_clan_sentry = Creature:new {
+	objectName = "@mob/creature_names:singing_mountain_clan_sentry",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "dungeon_creature",
+	faction = "",
+	level = 110,
+	chanceHit = 10,
+	damageMin = 3190,
+	damageMax = 4100,
+	baseXp = 35000,
+	baseHAM = 45900,
+	baseHAMmax = 47200,
+	armor = 0,
+	resists = {65,65,65,65,65,65,65,65,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = NONE,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_dathomir_sing_mt_clan_sentry.iff"},
+	lootGroups = {},
+	weapons = {"czerka_melee_weapons_heavy"},
+	conversationTemplate = "",
+	attacks = merge(pikemanmaster,brawlermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(blodgeon_singing_mountain_clan_sentry, "blodgeon_singing_mountain_clan_sentry")

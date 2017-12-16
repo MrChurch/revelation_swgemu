@@ -1,0 +1,1 @@
+require "object.revelation.tangible.storyteller.prop.objects"

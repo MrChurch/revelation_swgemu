@@ -1,0 +1,10 @@
+require("loot.revelation.items.wearable.jediclothes.mystery_hat_twilek_s04_loot")
+require("loot.revelation.items.wearable.jediclothes.mystery_ith_hat_s01_loot")
+require("loot.revelation.items.wearable.jediclothes.mystery_nightsister_hat_s01_loot")
+require("loot.revelation.items.wearable.jediclothes.mystery_nightsister_hat_s02_loot")
+require("loot.revelation.items.wearable.jediclothes.mystery_nightsister_hat_s03_loot")
+require("loot.revelation.items.wearable.jediclothes.mystery_singing_mountain_clan_hat_s01_loot")
+require("loot.revelation.items.wearable.jediclothes.mystery_singing_mountain_clan_hat_s02_loot")
+require("loot.revelation.items.wearable.jediclothes.mystery_singing_mountain_clan_mask_s01_loot")
+require("loot.revelation.items.wearable.jediclothes.mystery_wke_hood_s03_loot")
+

@@ -1,0 +1,36 @@
+blodgeon_singing_mountain_clan_arch_witch = Creature:new {
+	objectName = "@mob/creature_names:singing_mtn_clan_arch_witch",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "dungeon_creature",
+	faction = "",
+	level = 115,
+	chanceHit = 1,
+	damageMin = 3645,
+	damageMax = 5500,
+	baseXp = 60000,
+	baseHAM = 34000,
+	baseHAMmax = 38000,
+	armor = 2,
+	resists = {100,95,5,100,100,95,100,100,100},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER + HEALER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_dathomir_sing_mt_clan_arch_witch.iff"},
+	lootGroups = {},
+	weapons = {"czerka_melee_weapons_heavy"},
+	conversationTemplate = "",
+	attacks = merge(pikemanmaster,brawlermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(blodgeon_singing_mountain_clan_arch_witch, "blodgeon_singing_mountain_clan_arch_witch")

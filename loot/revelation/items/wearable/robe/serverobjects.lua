@@ -1,0 +1,6 @@
+require("loot.revelation.items.wearable.robe.robe_of_killiam_light")
+require("loot.revelation.items.wearable.robe.robe_of_killiam_dark")
+require("loot.revelation.items.wearable.robe.widowmaker_dark")
+require("loot.revelation.items.wearable.robe.widowmaker_light")
+require("loot.revelation.items.wearable.robe.robe_of_the_dragonbeast_dark")
+require("loot.revelation.items.wearable.robe.robe_of_the_dragonbeast_light")

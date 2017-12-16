@@ -1,0 +1,10 @@
+-- Server Objects
+require "object.revelation.tangible.wearables.jediclothes.mystery_nightsister_hat_s01"
+require "object.revelation.tangible.wearables.jediclothes.mystery_nightsister_hat_s02"
+require "object.revelation.tangible.wearables.jediclothes.mystery_nightsister_hat_s03"
+require "object.revelation.tangible.wearables.jediclothes.mystery_singing_mountain_clan_hat_s01"
+require "object.revelation.tangible.wearables.jediclothes.mystery_singing_mountain_clan_hat_s02"
+require "object.revelation.tangible.wearables.jediclothes.mystery_singing_mountain_clan_mask_s01"
+require "object.revelation.tangible.wearables.jediclothes.mystery_ith_hat_s01"
+require "object.revelation.tangible.wearables.jediclothes.mystery_hat_twilek_s04"
+require "object.revelation.tangible.wearables.jediclothes.mystery_wke_hood_s03"

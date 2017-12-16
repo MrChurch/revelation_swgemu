@@ -1,0 +1,6 @@
+require("loot.revelation.items.gha.gha_ch_ring_loot")
+require("loot.revelation.items.gha.gha_ch_earring_loot")
+require("loot.revelation.items.gha.gha_ch_necklace_loot")
+require("loot.revelation.items.gha.gha_be_ring_loot")
+require("loot.revelation.items.gha.gha_be_earring_loot")
+require("loot.revelation.items.gha.gha_be_necklace_loot")

@@ -1,0 +1,18 @@
+object_draft_schematic_vehicle_civilian_shared_swamp_speeder = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/vehicle/civilian/shared_swamp_speeder.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_vehicle_civilian_shared_swamp_speeder, "object/draft_schematic/vehicle/civilian/shared_swamp_speeder.iff")
+
+object_draft_schematic_vehicle_civilian_shared_hoverlifter_speeder = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/vehicle/civilian/shared_hoverlifter_speeder.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_vehicle_civilian_shared_hoverlifter_speeder, "object/draft_schematic/vehicle/civilian/shared_hoverlifter_speeder.iff")
+
+object_draft_schematic_vehicle_civilian_shared_basilisk_war_droid = SharedDraftSchematicObjectTemplate:new {
+  clientTemplateFileName = "object/draft_schematic/vehicle/civilian/shared_basilisk_war_droid.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_vehicle_civilian_shared_basilisk_war_droid, "object/draft_schematic/vehicle/civilian/shared_basilisk_war_droid.iff")
+

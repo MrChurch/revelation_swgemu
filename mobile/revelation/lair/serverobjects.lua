@@ -1,0 +1,1 @@
+require("mobile.revelation.lair.creature_lair.serverobjects")

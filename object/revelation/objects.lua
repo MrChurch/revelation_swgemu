@@ -1,0 +1,6 @@
+require "object.revelation.building.objects"
+require "object.revelation.draft_schematic.objects"
+require "object.revelation.mobile.objects"
+require "object.revelation.tangible.objects"
+require "object.revelation.intangible.objects"
+require "object.revelation.weapon.objects"

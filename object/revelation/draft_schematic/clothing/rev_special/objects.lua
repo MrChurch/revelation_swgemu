@@ -1,0 +1,166 @@
+--Copyright (C) 2015 <www.revelationonline.net> Author genesis@revelationonline.net
+
+
+--which carries forward this exception.
+
+-- Architect Robe
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_architect_robe_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_architect_robe_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_architect_robe_schem, "object/draft_schematic/clothing/shared_czerka_architect_robe_schem.iff")
+
+-- Architect Ring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_architect_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_architect_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_architect_ring_schem, "object/draft_schematic/clothing/shared_czerka_architect_ring_schem.iff")
+
+-- Architect Earring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_architect_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_architect_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_architect_earring_schem, "object/draft_schematic/clothing/shared_czerka_architect_earring_schem.iff")
+
+-- Architect Necklace
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_architect_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_architect_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_architect_necklace_schem, "object/draft_schematic/clothing/shared_czerka_architect_necklace_schem.iff")
+
+-- Armorsmith Robe
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_armor_robe_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_armor_robe_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_armor_robe_schem, "object/draft_schematic/clothing/shared_czerka_armor_robe_schem.iff")
+
+-- Armorsmith Ring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_armor_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_armor_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_armor_ring_schem, "object/draft_schematic/clothing/shared_czerka_armor_ring_schem.iff")
+
+-- Armorsmith Earring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_armor_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_armor_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_armor_earring_schem, "object/draft_schematic/clothing/shared_czerka_armor_earring_schem.iff")
+
+-- Armorsmith Necklace
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_armor_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_armor_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_armor_necklace_schem, "object/draft_schematic/clothing/shared_czerka_armor_necklace_schem.iff")
+
+-- Artisan Robe
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_artisan_robe_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_artisan_robe_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_artisan_robe_schem, "object/draft_schematic/clothing/shared_czerka_artisan_robe_schem.iff")
+
+-- Artisan Ring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_artisan_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_artisan_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_artisan_ring_schem, "object/draft_schematic/clothing/shared_czerka_artisan_ring_schem.iff")
+
+-- Artisan Earring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_artisan_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_artisan_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_artisan_earring_schem, "object/draft_schematic/clothing/shared_czerka_artisan_earring_schem.iff")
+
+-- Artisan Necklace
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_artisan_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_artisan_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_artisan_necklace_schem, "object/draft_schematic/clothing/shared_czerka_artisan_necklace_schem.iff")
+
+-- Chef Robe
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_chef_robe_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_chef_robe_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_chef_robe_schem, "object/draft_schematic/clothing/shared_czerka_chef_robe_schem.iff")
+
+-- Chef Ring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_chef_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_chef_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_chef_ring_schem, "object/draft_schematic/clothing/shared_czerka_chef_ring_schem.iff")
+
+-- Chef Earring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_chef_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_chef_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_chef_earring_schem, "object/draft_schematic/clothing/shared_czerka_chef_earring_schem.iff")
+
+-- Chef Necklace
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_chef_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_chef_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_chef_necklace_schem, "object/draft_schematic/clothing/shared_czerka_chef_necklace_schem.iff")
+
+-- Droid Engineer Robe
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_engineer_robe_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_engineer_robe_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_engineer_robe_schem, "object/draft_schematic/clothing/shared_czerka_engineer_robe_schem.iff")
+
+-- Droid Engineer Ring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_engineer_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_engineer_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_engineer_ring_schem, "object/draft_schematic/clothing/shared_czerka_engineer_ring_schem.iff")
+
+-- Droid Engineer Earring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_engineer_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_engineer_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_engineer_earring_schem, "object/draft_schematic/clothing/shared_czerka_engineer_earring_schem.iff")
+
+-- Droid Engineer Necklace
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_engineer_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_engineer_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_engineer_necklace_schem, "object/draft_schematic/clothing/shared_czerka_engineer_necklace_schem.iff")
+
+-- Entertainer Ring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_ent_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_ent_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_ent_ring_schem, "object/draft_schematic/clothing/shared_czerka_ent_ring_schem.iff")
+
+-- Entertainer Earring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_ent_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_ent_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_ent_earring_schem, "object/draft_schematic/clothing/shared_czerka_ent_earring_schem.iff")
+
+-- Entertainer Necklace
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_ent_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_ent_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_ent_necklace_schem, "object/draft_schematic/clothing/shared_czerka_ent_necklace_schem.iff")
+
+-- Weaponsmith Robe
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_weapon_robe_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_weapon_robe_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_weapon_robe_schem, "object/draft_schematic/clothing/shared_czerka_weapon_robe_schem.iff")
+
+-- Weaponsmith Ring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_weapon_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_weapon_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_weapon_ring_schem, "object/draft_schematic/clothing/shared_czerka_weapon_ring_schem.iff")
+
+-- Weaponsmith Earring
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_weapon_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_weapon_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_weapon_earring_schem, "object/draft_schematic/clothing/shared_czerka_weapon_earring_schem.iff")
+
+-- Architect Necklace
+object_revelation_draft_schematic_clothing_rev_special_shared_czerka_weapon_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_czerka_weapon_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_rev_special_shared_czerka_weapon_necklace_schem, "object/draft_schematic/clothing/shared_czerka_weapon_necklace_schem.iff")

@@ -1,0 +1,12 @@
+--Children folder includes
+require "object.revelation.tangible.deed.serverobjects"
+require "object.revelation.tangible.loot.serverobjects"
+require "object.revelation.tangible.furniture.serverobjects"
+require "object.revelation.tangible.tcg.serverobjects"
+require "object.revelation.tangible.wearables.serverobjects"
+require "object.revelation.tangible.hologram.serverobjects"
+require "object.revelation.tangible.skillbuff.serverobjects"
+require "object.revelation.tangible.symbols.serverobjects"
+require "object.revelation.tangible.painting.serverobjects"
+require "object.revelation.tangible.storyteller.serverobjects"
+--require "object.revelation.tangible.holiday.serverobjects"

@@ -1,0 +1,1 @@
+require("mobile.revelation.animals.event_diseased_bocatt")

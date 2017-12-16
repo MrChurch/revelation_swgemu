@@ -1,0 +1,5 @@
+object_revelation_mobile_outbreak_undead_boss_m_wke_01 = object_revelation_mobile_shared_outbreak_undead_boss_m_wke_01:new {
+
+}
+ObjectTemplates:addTemplate(object_revelation_mobile_outbreak_undead_boss_m_wke_01, "object/mobile/outbreak_undead_boss_m_wke_01.iff")
+

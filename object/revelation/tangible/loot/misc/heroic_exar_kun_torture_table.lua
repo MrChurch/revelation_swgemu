@@ -1,0 +1,5 @@
+object_revelation_tangible_loot_misc_heroic_exar_kun_torture_table = object_revelation_tangible_loot_misc_shared_heroic_exar_kun_torture_table:new {
+customName = "Torture Table"
+}
+
+ObjectTemplates:addTemplate(object_revelation_tangible_loot_misc_heroic_exar_kun_torture_table, "object/tangible/loot/misc/heroic_exar_kun_torture_table.iff")

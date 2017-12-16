@@ -1,0 +1,35 @@
+rev_pvpevent_luke_skywalker = Creature:new {
+	objectName = "@mob/creature_names:luke_skywalker",
+	socialGroup = "rebel",
+	faction = "rebel",
+	level = 300,
+	chanceHit = 30,
+	damageMin = 2045,
+	damageMax = 2500,
+	baseXp = 125000,
+	baseHAM = 950000,
+	baseHAMmax = 1200000,
+	armor = 1,
+	resists = {40,40,40,40,40,40,40,40,40},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = ATTACKABLE + AGGRESSIVE,
+	creatureBitmask = PACK + KILLER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_luke_skywalker.iff"},
+	lootGroups = {},
+	weapons = {"dark_jedi_weapons_gen3"},
+	conversationTemplate = "",
+	attacks = merge(lightsabermaster,forcepowermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(rev_pvpevent_luke_skywalker, "rev_pvpevent_luke_skywalker")

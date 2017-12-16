@@ -1,0 +1,6 @@
+require("loot.revelation.items.creature.old_kimogila_armor_segment")
+require("loot.revelation.items.creature.old_kimogila_blood")
+require("loot.revelation.items.creature.old_kimogila_armor_segment_rare")
+require("loot.revelation.items.creature.old_kimogila_pearl_flawless")
+require("loot.revelation.items.creature.pekopekoegg")
+require("loot.revelation.items.creature.godzilla_segments")

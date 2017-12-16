@@ -1,0 +1,36 @@
+blodgeon_nightsister_elder = Creature:new {
+	objectName = "@mob/creature_names:nightsister_elder",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "dungeon_creature",
+	faction = "",
+	level = 278,
+	chanceHit = 27.25,
+	damageMin = 3020,
+	damageMax = 3750,
+	baseXp = 125000,
+	baseHAM = 141000,
+	baseHAMmax = 192000,
+	armor = 3,
+	resists = {200,25,25,200,200,-1,200,200,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER + HEALER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_dathomir_nightsister_elder.iff"},
+	lootGroups = {},
+	weapons = {"dark_jedi_weapons_gen4"},
+	conversationTemplate = "",
+	attacks = merge(forcewielder,lightsabermaster,forcepowermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(blodgeon_nightsister_elder, "blodgeon_nightsister_elder")

@@ -1,0 +1,36 @@
+rev_jawa_leader = Creature:new {
+	objectName = "@mob/creature_names:jawa_leader",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "jawa",
+	faction = "jawa",
+	level = 250,
+	chanceHit = 95,
+	damageMin = 2420,
+	damageMax = 2950,
+	baseXp = 20000,
+	baseHAM = 465000,
+	baseHAMmax = 532000,
+	armor = 2,
+	resists = {55,55,60,55,55,70,55,55,45},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = KILLER + PACK,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/jawa_male.iff"},
+	lootGroups = {},
+	weapons = {"czerka_melee_special"},
+	conversationTemplate = "",
+	attacks = merge(swordsmanmaster,brawlermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(rev_jawa_leader, "rev_jawa_leader")

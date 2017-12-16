@@ -1,0 +1,82 @@
+--Copyright (C) 2009 <SWGEmu>
+
+
+--which carries forward this exception.
+
+--Diner Bar
+object_revelation_draft_schematic_furniture_shared_furniture_diner_bar = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_furniture_diner_bar.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_furniture_diner_bar, "object/draft_schematic/furniture/shared_furniture_diner_bar.iff")
+
+--Diner Booth
+object_revelation_draft_schematic_furniture_shared_furniture_diner_booth = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_furniture_diner_booth.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_furniture_diner_booth, "object/draft_schematic/furniture/shared_furniture_diner_booth.iff")
+
+--Diner Counter Center
+object_revelation_draft_schematic_furniture_shared_furniture_diner_counter_center = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_furniture_diner_counter_center.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_furniture_diner_counter_center, "object/draft_schematic/furniture/shared_furniture_diner_counter_center.iff")
+
+--Diner Counter Corner S02
+object_revelation_draft_schematic_furniture_shared_furniture_diner_counter_corner_s02 = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_furniture_diner_counter_corner_s02.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_furniture_diner_counter_corner_s02, "object/draft_schematic/furniture/shared_furniture_diner_counter_corner_s02.iff")
+
+--Diner Counter Corner
+object_revelation_draft_schematic_furniture_shared_furniture_diner_counter_corner = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_furniture_diner_counter_corner.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_furniture_diner_counter_corner, "object/draft_schematic/furniture/shared_furniture_diner_counter_corner.iff")
+
+--Diner Stool
+object_revelation_draft_schematic_furniture_shared_furniture_diner_stool = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_furniture_diner_stool.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_furniture_diner_stool, "object/draft_schematic/furniture/shared_furniture_diner_stool.iff")
+
+--Diner Table
+object_revelation_draft_schematic_furniture_shared_furniture_diner_table = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_furniture_diner_table.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_furniture_diner_table, "object/draft_schematic/furniture/shared_furniture_diner_table.iff")
+
+--Bespin Glass Sculpture
+object_revelation_draft_schematic_furniture_shared_bespin_glass_sculpture = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_bespin_glass_sculpture.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_bespin_glass_sculpture, "object/draft_schematic/furniture/shared_bespin_glass_sculpture.iff")
+
+--Bespin Lamp Off
+object_revelation_draft_schematic_furniture_shared_bespin_lamp_off = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_bespin_lamp_off.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_bespin_lamp_off, "object/draft_schematic/furniture/shared_bespin_lamp_off.iff")
+
+--Bespin Lamp On
+object_revelation_draft_schematic_furniture_shared_bespin_lamp_on = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_bespin_lamp_on.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_bespin_lamp_on, "object/draft_schematic/furniture/shared_bespin_lamp_on.iff")
+
+--Bespin Sconce Off
+object_revelation_draft_schematic_furniture_shared_bespin_sconce_off = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_bespin_sconce_off.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_bespin_sconce_off, "object/draft_schematic/furniture/shared_bespin_sconce_off.iff")
+
+--Bespin Sconce On
+object_revelation_draft_schematic_furniture_shared_bespin_sconce_on = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_bespin_sconce_on.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_bespin_sconce_on, "object/draft_schematic/furniture/shared_bespin_sconce_on.iff")
+
+--Bespin Shelves
+object_revelation_draft_schematic_furniture_shared_bespin_shelves = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/shared_bespin_shelves.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_furniture_shared_bespin_shelves, "object/draft_schematic/furniture/shared_bespin_shelves.iff")

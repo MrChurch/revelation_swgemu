@@ -1,0 +1,36 @@
+rev_ewok_outcast = Creature:new {
+	objectName = "@mob/creature_names:ewok_outcast",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "self",
+	faction = "gondula_tribe",
+	level = 100,
+	chanceHit = 35,
+	damageMin = 2290,
+	damageMax = 3500,
+	baseXp = 3097,
+	baseHAM = 38400,
+	baseHAMmax = 50200,
+	armor = 1,
+	resists = {25,20,20,60,60,20,20,-1,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = ATTACKABLE,
+	creatureBitmask = PACK,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_ewok_m_04.iff"},
+	lootGroups = {},
+	weapons = {"ewok_weapons"},
+	conversationTemplate = "",
+	attacks = merge(riflemanmaster,brawlermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(rev_ewok_outcast, "rev_ewok_outcast")

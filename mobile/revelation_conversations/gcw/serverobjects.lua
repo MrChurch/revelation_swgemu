@@ -1,0 +1,5 @@
+require("mobile.revelation_conversations.gcw.imperial_bestine_shuttle_conversation")
+require("mobile.revelation_conversations.gcw.rebel_bestine_shuttle_conversation")
+require("mobile.revelation_conversations.gcw.imp_transit_convo")
+require("mobile.revelation_conversations.gcw.reb_transit_convo")
+require("mobile.revelation_conversations.gcw.gcwxp_converter_conversation")

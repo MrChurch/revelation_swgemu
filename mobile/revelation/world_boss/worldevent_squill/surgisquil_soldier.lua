@@ -1,0 +1,40 @@
+surgisquil_soldier = Creature:new {
+	objectName = "",
+	customName = "Soldier of Surgisquil",
+	socialGroup = "squill",
+	faction = "",
+	level = 200,
+	chanceHit = 100,
+	damageMin = 1900,
+	damageMax = 2700,
+	baseXp = 45000,
+	baseHAM = 47000,
+	baseHAMmax = 59000,
+	armor = 2,
+	resists = {65,55,75,55,-1,25,25,25,30},
+	meatType = "meat_carnivore",
+	meatAmount = 3,
+	hideType = "hide_leathery",
+	hideAmount = 4,
+	boneType = "bone_mammal",
+	boneAmount = 2,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 10,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK,
+	optionsBitmask = 128,
+	diet = CARNIVORE,
+
+	templates = {"object/mobile/mountain_squill.iff"},
+	scale = 1.8,
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = {
+		{"intimidationattack","stateAccuracyBonus=75"},
+		{"creatureareacombo","stateAccuracyBonus=100"},
+	}
+}
+
+CreatureTemplates:addCreatureTemplate(surgisquil_soldier, "surgisquil_soldier")

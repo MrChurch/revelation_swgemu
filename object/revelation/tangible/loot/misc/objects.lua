@@ -1,0 +1,5 @@
+object_revelation_tangible_loot_misc_shared_heroic_exar_kun_torture_table = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/misc/shared_heroic_exar_kun_torture_table.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_revelation_tangible_loot_misc_shared_heroic_exar_kun_torture_table, "object/tangible/loot/misc/shared_heroic_exar_kun_torture_table.iff")

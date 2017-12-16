@@ -1,0 +1,63 @@
+czerka_outpost_pirate_crewman = Creature:new {
+    objectName = "",
+    customName = "a Pirate Crewman",
+    socialGroup = "pirate",
+    pvpFaction = "pirate",
+    faction = "artifact_hunter",
+    level = 75,
+    chanceHit = 5,
+    damageMin = 550,
+    damageMax = 1050,
+    baseXp = 900,
+    baseHAM = 11000,
+    baseHAMmax = 14200,
+    armor = 1,
+    resists = {55,55,55,55,55,55,55,10,5},
+    meatType = "",
+    meatAmount = 0,
+    hideType = "",
+    hideAmount = 0,
+    boneType = "",
+    boneAmount = 0,
+    milk = 0,
+    tamingChance = 0,
+    ferocity = 0,
+    pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+    creatureBitmask = PACK,
+    optionsBitmask = 128,
+    diet = HERBIVORE,
+
+    templates = {
+    "object/mobile/dressed_criminal_pirate_human_male_01.iff",
+    "object/mobile/dressed_criminal_pirate_human_female_01.iff",
+    "object/mobile/dressed_criminal_thug_aqualish_male_01.iff",
+    "object/mobile/dressed_criminal_thug_aqualish_male_02.iff",
+    "object/mobile/dressed_criminal_thug_aqualish_female_01.iff",
+    "object/mobile/dressed_criminal_thug_aqualish_female_02.iff",
+    "object/mobile/dressed_criminal_thug_bothan_male_01.iff",
+    "object/mobile/dressed_criminal_thug_bothan_female_01.iff",
+    "object/mobile/dressed_criminal_thug_human_male_01.iff",
+    "object/mobile/dressed_criminal_thug_human_male_02.iff",
+    "object/mobile/dressed_criminal_thug_human_female_01.iff",
+    "object/mobile/dressed_criminal_thug_human_female_02.iff",
+    "object/mobile/dressed_criminal_thug_rodian_male_01.iff",
+    "object/mobile/dressed_criminal_thug_rodian_female_01.iff",
+    "object/mobile/dressed_criminal_thug_trandoshan_male_01.iff",
+    "object/mobile/dressed_criminal_thug_trandoshan_female_01.iff",
+    "object/mobile/dressed_criminal_thug_zabrak_male_01.iff",
+    "object/mobile/dressed_criminal_thug_zabrak_female_01.iff"
+    },
+    lootGroups = {
+        {
+            groups = {
+                {group = "pirate_outpost_common", chance = 10000000},
+            },
+            lootChance = 2400000,
+        },
+    },
+  weapons = {"czerka_melee_special"},
+  conversationTemplate = "",
+  attacks = merge(swordsmanmaster,brawlermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(czerka_outpost_pirate_crewman, "czerka_outpost_pirate_crewman")

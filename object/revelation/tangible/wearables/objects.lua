@@ -1,0 +1,6 @@
+require "object.revelation.tangible.wearables.armor.objects"
+require "object.revelation.tangible.wearables.jacket.objects"
+require "object.revelation.tangible.wearables.gha.objects"
+require "object.revelation.tangible.wearables.rev_special.objects"
+require "object.revelation.tangible.wearables.robe.objects"
+require "object.revelation.tangible.wearables.jediclothes.objects"

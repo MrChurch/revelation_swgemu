@@ -1,0 +1,5 @@
+require("mobile.revelation.merchants.merchant_czerka_basic")
+require("mobile.revelation.merchants.merchant_express_basic")
+require("mobile.revelation.merchants.merchant_worldevent")
+require("mobile.revelation.merchants.merchant_pvp_basic")
+require("mobile.revelation.merchants.merchant_pvp_special")

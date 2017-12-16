@@ -1,0 +1,5 @@
+require("mobile.revelation.transitshuttle_pilots.dathomir_village_smuggler")
+require("mobile.revelation.transitshuttle_pilots.freelancer_transports")
+require("mobile.revelation.transitshuttle_pilots.freelancer_transports_lokmineonly")
+require("mobile.revelation.transitshuttle_pilots.freelancer_transports_czerka_village")
+require("mobile.revelation.transitshuttle_pilots.freelancer_transports_czerka_main")

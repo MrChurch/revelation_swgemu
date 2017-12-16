@@ -1,0 +1,41 @@
+bludgeon_normal = Creature:new {
+	objectName = "",
+	customName = "Bludgeon <A Mutated Rancor>",
+	socialGroup = "dungeon_creature",
+	pvpFaction = "",
+	faction = "",
+	level = 500,
+	chanceHit = 200,
+	damageMin = 5645,
+	damageMax = 6850,
+	baseXp = 250000,
+	baseHAM = 750000,
+	baseHAMmax = 800000,
+	armor = 2,
+	resists = {65,65,35,65,65,65,85,35,5},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = KILLER + STALKER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/beast_master/bm_mutated_rancor.iff"},
+	scale = 1.3,	
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = {
+    {"creatureareaknockdown","stateAccuracyBonus=180"},
+    {"creatureareableeding","stateAccuracyBonus=180"},
+	}
+}
+
+CreatureTemplates:addCreatureTemplate(bludgeon_normal, "bludgeon_normal")

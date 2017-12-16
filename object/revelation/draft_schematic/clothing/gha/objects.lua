@@ -1,0 +1,36 @@
+--Copyright (C) 2015 <www.revelationonline.net> Author matthias.muente@gmx.de
+
+object_revelation_draft_schematic_clothing_gha_shared_gha_be_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_gha_be_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_gha_shared_gha_be_ring_schem, "object/draft_schematic/clothing/shared_gha_be_ring_schem.iff")
+
+
+object_revelation_draft_schematic_clothing_gha_shared_gha_be_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_gha_be_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_gha_shared_gha_be_earring_schem, "object/draft_schematic/clothing/shared_gha_be_earring_schem.iff")
+
+
+object_revelation_draft_schematic_clothing_gha_shared_gha_be_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_gha_be_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_gha_shared_gha_be_necklace_schem, "object/draft_schematic/clothing/shared_gha_ch_necklace_schem.iff")
+
+
+object_revelation_draft_schematic_clothing_gha_shared_gha_ch_ring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_gha_ch_ring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_gha_shared_gha_ch_ring_schem, "object/draft_schematic/clothing/shared_gha_ch_ring_schem.iff")
+
+
+object_revelation_draft_schematic_clothing_gha_shared_gha_ch_earring_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_gha_ch_earring_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_gha_shared_gha_ch_earring_schem, "object/draft_schematic/clothing/shared_gha_ch_earring_schem.iff")
+
+
+object_revelation_draft_schematic_clothing_gha_shared_gha_ch_necklace_schem = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_gha_ch_necklace_schem.iff"
+}
+ObjectTemplates:addClientTemplate(object_revelation_draft_schematic_clothing_gha_shared_gha_ch_necklace_schem, "object/draft_schematic/clothing/shared_gha_ch_necklace_schem.iff")

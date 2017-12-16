@@ -1,0 +1,16 @@
+--Copyright (C) 2015 <www.revelationonline.net> Author matthias.muente@gmx.de
+
+require "object.revelation.intangible.vehicle.barc_speeder_pcd"
+require "object.revelation.intangible.vehicle.pod_racer_one_pcd"
+require "object.revelation.intangible.vehicle.pod_racer_two_pcd"
+require "object.revelation.intangible.vehicle.barc_speeder_rebel_pcd"
+require "object.revelation.intangible.vehicle.barc_speeder_imperial_pcd"
+require "object.revelation.intangible.vehicle.swamp_speeder_pcd"
+require "object.revelation.intangible.vehicle.basilisk_war_droid"
+require "object.revelation.intangible.vehicle.hoverlifter_speeder_pcd"
+require "object.revelation.intangible.vehicle.landspeeder_lava_skiff_pcd"
+require "object.revelation.intangible.vehicle.landspeeder_v35_pcd"
+require "object.revelation.intangible.vehicle.landspeeder_xp38_pcd"
+--require "object.revelation.intangible.vehicle.landspeeder_ab1_pcd"
+require "object.revelation.intangible.vehicle.sith_speeder_pcd"
+require "object.revelation.intangible.vehicle.stap_speeder_pcd"

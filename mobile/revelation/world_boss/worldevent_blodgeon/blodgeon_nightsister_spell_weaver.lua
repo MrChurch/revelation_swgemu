@@ -1,0 +1,36 @@
+blodgeon_nightsister_spell_weaver = Creature:new {
+	objectName = "@mob/creature_names:nightsister_spell_weaver",
+	randomNameType = NAME_GENERIC_TAG,
+	socialGroup = "dungeon_creature",
+	faction = "",
+	level = 200,
+	chanceHit = 25,
+	damageMin = 2645,
+	damageMax = 3200,
+	baseXp = 10174,
+	baseHAM = 74000,
+	baseHAMmax = 80000,
+	armor = 2,
+	resists = {5,100,5,100,100,100,5,100,-1},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER + HEALER,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/dressed_dathomir_nightsister_spellweaver.iff"},
+	lootGroups = {},
+	weapons = {"dark_jedi_weapons_gen2"},
+	conversationTemplate = "",
+	attacks = merge(forcewielder,lightsabermaster,forcepowermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(blodgeon_nightsister_spell_weaver, "blodgeon_nightsister_spell_weaver")

@@ -1,0 +1,37 @@
+rev_tusken_king = Creature:new {
+	objectName = "",
+	customName = "Bloodhand the Tusken King",
+	socialGroup = "tusken_raider",
+	faction = "tusken_raider",
+	level = 300,
+	chanceHit = 30,
+	damageMin = 2120,
+	damageMax = 2650,
+	baseXp = 100000,
+	baseHAM = 1000000,
+	baseHAMmax = 1050000,
+	armor = 1,
+	resists = {90,90,90,90,75,75,75,75,25},
+	meatType = "",
+	meatAmount = 0,
+	hideType = "",
+	hideAmount = 0,
+	boneType = "",
+	boneAmount = 0,
+	milk = 0,
+	tamingChance = 0,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = KILLER + PACK,
+	optionsBitmask = 128,
+	diet = HERBIVORE,
+	scale = 1.35,
+	templates = {"object/mobile/tusken_raider.iff"},
+	lootGroups = {
+	},
+	weapons = {"dark_jedi_weapons_gen4"},
+	conversationTemplate = "",
+	attacks = merge(lightsabermaster,forcepowermaster)
+}
+
+CreatureTemplates:addCreatureTemplate(rev_tusken_king, "rev_tusken_king")
