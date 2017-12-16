@@ -1,0 +1,6 @@
+require "screenplays.revelation.merchants.merchant_czerka_basic"
+require "screenplays.revelation.merchants.merchant_express_basic"
+require "screenplays.revelation.merchants.merchant_worldevent"
+require "screenplays.revelation.merchants.merchant_pvp_basic"
+require "screenplays.revelation.merchants.merchant_pvp_special"
+require "screenplays.revelation.merchants.xmas_vendor"

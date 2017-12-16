@@ -1,0 +1,1 @@
+require "screenplays.revelation.gcw.tatooine.bestine.serverobjects"

@@ -1,0 +1,6 @@
+require "screenplays.revelation.static_planet_spawns.tatooine"
+require "screenplays.revelation.static_planet_spawns.naboo"
+require "screenplays.revelation.static_planet_spawns.lok"
+require "screenplays.revelation.static_planet_spawns.talus"
+require "screenplays.revelation.static_planet_spawns.yavin"
+require "screenplays.revelation.static_planet_spawns.corellia"
