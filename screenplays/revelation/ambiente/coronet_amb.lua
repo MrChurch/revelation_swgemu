@@ -8,27 +8,12 @@ local ObjectManager = require("managers.object.object_manager")
 local ScreenplayHelper = require("helper.screenplayHelper")
 
 function coronet_amb:start()
-    printf("HERE HERE HERE \n")
-        printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
     if (isZoneEnabled("corellia")) then
         self:spawnStructures()
     end
 end
 
 function coronet_amb:spawnStructures()
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-    printf("HERE HERE HERE \n")
-
     spawnSceneObject("corellia", "object/mobile/vehicle/pod_racer_one.iff", -142.4, 9999, -4757.9, 0)
     --spawnSceneObject("corellia", "object/mobile/vehicle/landspeeder_av21.iff", -164.6, 9999, -4682.3, 0)
     local pCreature = spawnMobile("corellia", "cll8_binary_load_lifter", 600, -1385, 26.6, 5273, 250, 0)   
